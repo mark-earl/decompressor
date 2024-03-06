@@ -35,3 +35,6 @@ add_custom_target(check
     USES_TERMINAL
     WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
 )
+
+# install
+install(PROGRAMS $<TARGET_FILE:decompressor> TYPE BIN)
