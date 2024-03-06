@@ -1,0 +1,1 @@
+The decompressor is a universal decompressor that uses libarchive to convert a compressed and archived file to the original content. If the compressed file is an archive with multiple entries, the output entries are separated by ASCII NULL ('\0'). The input formats are shown on the libarchive formats.
